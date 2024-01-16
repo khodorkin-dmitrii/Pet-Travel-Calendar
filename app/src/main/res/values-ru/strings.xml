@@ -1,0 +1,10 @@
+<resources>
+    <string name="case_first_vaccination_title">Сценарий: \'Первая вакцинация\'</string>
+    <string name="case_first_vaccination_day_zero">День 0 - чип и вакцина от бешенства и комплексная (1 укол)</string>
+    <string name="case_first_vaccination_day_zero_date">День 0: %s</string>
+    <string name="case_first_vaccination_then">Тогда:</string>
+    <string name="case_first_vaccination_step_1">21 день (от дня 0) - вакцина комплексная (2 укол);</string>
+    <string name="case_first_vaccination_step_2">30 дней (от дня 0) - можно сдавать кровь на титры;</string>
+    <string name="case_first_vaccination_step_3">21 день (от дня 22) - можно ехать из РФ (+43?).</string>
+
+</resources>

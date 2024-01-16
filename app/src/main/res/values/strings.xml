@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">Pet Travel Calendar</string>
+    <string name="app_name" translatable="false">Pet Travel Calendar</string>
+
+    <string name="case_first_vaccination_title">Case: \'First vaccination\'</string>
+    <string name="case_first_vaccination_day_zero">Day 0 - chip and rabies vaccine and complex (1 shot)</string>
+    <string name="case_first_vaccination_day_zero_date">Day 0: %1$s!</string>
+    <string name="case_first_vaccination_then">Then:</string>
+    <string name="case_first_vaccination_step_1">21 days (from day 0) - complex vaccine (2 injections);</string>
+    <string name="case_first_vaccination_step_2">30 days (from day 0) - you can test blood for titers;</string>
+    <string name="case_first_vaccination_step_3">21 days (from day 22) - you can travel from the RF (+43?).</string>
 </resources>

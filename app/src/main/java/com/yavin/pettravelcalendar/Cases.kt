@@ -12,6 +12,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.maxkeppeker.sheets.core.models.base.rememberSheetState
@@ -42,18 +43,23 @@ fun FirstVaccineCase() {
 
     Column(Modifier.padding(16.dp)) {
         Text(
-            text = "Сценарий: 'Первая вакцинация'", // TODO localize
+            text = stringResource(R.string.case_first_vaccination_title),
             style = MaterialTheme.typography.titleLarge
         )
         Text(
-            text = "День 0 - чип и вакцина от бешенства и комплексная (1 укол)",
+            text = stringResource(R.string.case_first_vaccination_day_zero),
             style = MaterialTheme.typography.labelLarge
         )
         Button(onClick = { calendarAState.show() }) {
-            Text("День 0: $selectedDateA")
+            Text(
+                text = stringResource(
+                    R.string.case_first_vaccination_day_zero_date,
+                    selectedDateA
+                )
+            )
         }
         Text(
-            text = "Тогда:",
+            text = stringResource(id = R.string.case_first_vaccination_then),
             style = MaterialTheme.typography.titleMedium
         )
         Text(
@@ -62,7 +68,7 @@ fun FirstVaccineCase() {
                     selectedDateA,
                     21
                 )
-            } :  21 день (от дня 0) - вакцина комплексная (2 укол);",
+            } : " + stringResource(id = R.string.case_first_vaccination_step_1),
             style = MaterialTheme.typography.labelLarge
         )
         Text(
@@ -71,7 +77,7 @@ fun FirstVaccineCase() {
                     selectedDateA,
                     30
                 )
-            } :  30 дней (от дня 0) - можно сдавать кровь на титры;",
+            } : " + stringResource(id = R.string.case_first_vaccination_step_2),
             style = MaterialTheme.typography.labelLarge
         )
         Text(
@@ -80,7 +86,7 @@ fun FirstVaccineCase() {
                     selectedDateA,
                     43
                 )
-            } :  21 день (от дня 22) - можно ехать из РФ (+43?).",
+            } : " + stringResource(id = R.string.case_first_vaccination_step_3),
             style = MaterialTheme.typography.labelLarge
         )
     }
