@@ -1,4 +1,14 @@
 <resources>
+    <string name="my_pet_is">Мой питомец:</string>
+
+    <string name="pet_type_cat">Кошка</string>
+    <string name="pet_type_dog">Собака</string>
+    <string name="pet_type_ferret">Хорек</string>
+    <string name="pet_type_rabbit">Кролик</string>
+    <string name="pet_type_parrot">Попугай</string>
+    <string name="pet_type_rat_or_chinchilla">Крысса или Шиншилла</string>
+    <string name="pet_type_exotic">Экзот</string>
+
     <string name="case_first_vaccination_title">Сценарий: \'Первая вакцинация\'</string>
     <string name="case_first_vaccination_day_zero">День 0 - чип и вакцина от бешенства и комплексная (1 укол)</string>
     <string name="case_first_vaccination_day_zero_date">День 0: %s</string>

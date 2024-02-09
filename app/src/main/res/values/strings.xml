@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name" translatable="false">Pet Travel Calendar</string>
 
+    <string name="my_pet_is">My pet is:</string>
+
+    <string name="pet_type_cat">Cat</string>
+    <string name="pet_type_dog">Dog</string>
+    <string name="pet_type_ferret">Ferret</string>
+    <string name="pet_type_rabbit">Rabbit</string>
+    <string name="pet_type_parrot">Parrot</string>
+    <string name="pet_type_rat_or_chinchilla">Rat ot Chinchilla</string>
+    <string name="pet_type_exotic">Exotic</string>
+
     <string name="case_first_vaccination_title">Case: \'First vaccination\'</string>
     <string name="case_first_vaccination_day_zero">Day 0 - chip and rabies vaccine and complex (1 shot)</string>
     <string name="case_first_vaccination_day_zero_date">Day 0: %1$s!</string>
